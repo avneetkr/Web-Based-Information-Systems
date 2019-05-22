@@ -1,0 +1,90 @@
+
+html {
+	height: 100%;
+	background-color: rgb(100,100,100);
+}
+
+header {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+
+	font-family: "Trebuchet MS", "Lucida Grande", arial, sans-serif;
+	font-size: 11pt;
+	font-style: normal;	
+
+	background-color: white;
+	background-repeat: repeat-y;
+
+	margin-top: 0;
+	margin-bottom: auto;
+	margin-left: 25%;
+	margin-right: 25%;	
+	min-height: 100%;
+	
+	position: absolute;
+
+	display: block;
+	box-shadow: 0px -50px 50px black;
+}
+
+img {
+	width: 100%;
+	position: relative;
+}
+
+.main {
+	float: left;
+	max-width: 55%;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 2em;	
+}
+
+code {
+	font-family: times;
+	background-color: gainsboro;
+	background-repeat: repeat-x;
+	display: block;
+}
+
+.side {
+	float: left;
+	font-size: 11pt;
+	max-width: 35%;
+	position: relative;
+	right: 0;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.second {
+	background-color: silver;
+	line-height: 1.75;
+	padding-left: 0.5ex;
+	padding-right: 0.5ex;
+	padding-bottom: 0.5ex;
+	font-weight: bold;
+}
+
+a {
+	color: dimgray;
+	text-decoration: none;
+}
+
+footer {
+	clear: both;
+	color: white;
+	background-color: rgb(50,50,50);
+	text-align: center;
+	position: relative;
+	margin-bottom: 20%;
+}
+
+cite
+{
+	font-style: italic;
+	font-weight: bold;
+}

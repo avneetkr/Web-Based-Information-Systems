@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<script type="text/javascript" src="adduser.js">
+	</script>
+</head>
+<body>
+<form>
+	<fieldset>
+		<legend>Add User</legend>
+		<p>
+			<label>Name:</label>
+			<input type= "text" name="name" id="name"/>
+			<label>Email:</label>
+			<input type="email" name="email" id="email"/>
+			<label>Age:</label>
+			<input type="number" min="0" name="age" id="age"/>
+		</p>
+		<p>
+			<input type="button" value="Add User" onClick="addUser()"/>
+		</p>
+	</fieldset>
+</form>
+<p id="output" style="font-family: Trebuchet MS">
+</p>
+<p id="average_age" style="font-family: Trebuchet MS">
+</p>
+</body>
+</html>
